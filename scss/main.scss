@@ -1,0 +1,37 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  text-align: center;
+  padding-top: 300px;
+  // background-color:rgba(40, 49, 87, 1);
+  // background-color:rgba(218, 160, 90, 1);
+  // background-color:rgba(186, 214, 150, 1);
+}
+
+.hours::after,
+.minutes::after{
+  content: ":";
+}
+
+
+#clock{
+  color: rgba(140, 142, 154, 1);
+  font-size: 80px;
+  letter-spacing: 8px;
+}
+
+#underline{
+  width: 300px;
+  height: 10px;
+  position: relative;
+}
+
+#myBar{
+  width: 300px;
+  height: 10px;
+  position: absolute;
+}
